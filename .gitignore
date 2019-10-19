@@ -1,0 +1,15 @@
+hsi/
+sdk/SDK.log
+sdk/.metadata/
+sdk/.Xil/
+sdk/fsbl_bsp/
+sdk/RemoteSystemsTempFiles/
+sdk/vfpWebCamera/Debug/
+sdk/vfpWebCamera/.cproject
+sdk/vfpWebCamera/.project
+sdk/vfpWebCamera_bsp/
+sdk/ZEDBOARD_hw_platform_0/
+sdk/ZEDBOARD.hdf
+sdk/SDK.log
+hsi_info.txt
+sdk_info.txt
