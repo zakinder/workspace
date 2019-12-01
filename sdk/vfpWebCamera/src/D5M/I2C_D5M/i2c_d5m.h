@@ -4,6 +4,7 @@ int camera_exposer(u16 exposer_value);
 void pRexposer();
 void d5mtestpattern(u16 pattern_num);
 void d5mcolorgain();
+void setColorGain(u16 gain,u16 exp);
 u16 img(u16 read_address);
 void camerawrite(u16 value);
 void master_menu();

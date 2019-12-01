@@ -57,6 +57,10 @@ void readGDataContinueMode();
 void readGDataStopMode();
 void pointInterestFixed();
 void framefifoFixed();
+void vdmaHdmiConfig();
+void vfpRgbLevelConfig();
+void InitVdmaHdmi();
+void WriteToVfp();
 void d5mInit();
 void d5mInitCall();
 void d5mInitPrint();
@@ -85,4 +89,5 @@ void colorYCbCrPerChCr();
 void lum_ThresholdValue(u16 lumThresholdValue);
 void colorYCbCrPerCh(u16 PerChValue);
 void colorHsvPerCh(u16 PerChValue);
+void videokCoefValsUpdate(u16 testValues,int filterNumber);
 #endif // __CHANNEL_H__

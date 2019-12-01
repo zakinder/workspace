@@ -68,6 +68,18 @@
 #define selShpToYcbcr               30
 #define selShpToShp                 31
 #define selShpToBlu                 32
+#define selbluToBlu                 33
+#define selbluToCga                 34
+#define selbluToShp                 35
+#define selbluToYcc                 36
+#define selbluToHsv                 37
+#define selbluToHsl                 38
+#define selbluToCgaShp              39
+#define selbluToCgaShpYcc           40
+#define selbluToCgaShpHsv           41
+#define selbluToShpCga              42
+#define selbluToShpCgaYcc           43
+#define selbluToShpCgaHsv           44
 #define selRgbCorrect               45
 #define selRgbRemix                 46
 #define selRgbDetect                47
@@ -485,6 +497,7 @@ UNSED KERNEL
 #define wemboss                 0x7C439CD
 #define wblur                   0x13D674
 #define keygain                 0x70F0134
+#define d5mgain                 0x60FE0B4
 /************************************/
 #define hsvpervalue             0xF43BADEF
 #define yccpervalue             0x5E197EEF
@@ -524,6 +537,18 @@ UNSED KERNEL
 #define video30                 0x7B9B962
 #define video31                 0x7B9B963
 #define video32                 0x7B9B964
+#define video33                 0x7B9B965
+#define video34                 0x7B9B966
+#define video35                 0x7B9B967
+#define video36                 0x7B9B968
+#define video37                 0x7B9B969
+#define video38                 0x7B9B96A
+#define video39                 0x7B9B96B
+#define video40                 0x7B9B96C
+#define video41                 0x7B9B96D
+#define video42                 0x7B9B96E
+#define video43                 0x7B9B96F
+#define video44                 0x7B9B970
 #define video45                 0x7B9B971
 #define video46                 0x7B9B972
 #define video47                 0x7B9B973

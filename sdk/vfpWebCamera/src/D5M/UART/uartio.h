@@ -15,6 +15,7 @@ void menu_print_prompt();
 u32 uartcmd(u32 argA,u32 argB);
 void keyArrow1Select();
 void keyArrow2Select();
+void d5mgainSelect();
 void cmds_menu();
 void master_menu();
 void menu_cls();

@@ -44,7 +44,7 @@ int load_sd_to_memory (char *filename, u8* dataPtr, u32 *DataLength, u32 filetyp
 	}
 	else if (filetype == 2) { // text file
 		TCHAR *LineTemp = (TCHAR *) NULL;
-		LineTemp = (TCHAR *) f_gets ((char *)dataPtr, filesize, &test);
+		//LineTemp = (TCHAR *) f_gets ((char *)dataPtr, filesize, &test);
 	}
 	else
 		{ xil_printf ("Error: 'filetype' is incorrect!"); return XST_FAILURE; }
@@ -97,7 +97,7 @@ int write_data_to_sd(char *filename, u8* dataPtr, u32 DataLength, u32 filetype)
 		if (NumBytesWritten != DataLength) { xil_printf ("Error!. Number of Bytes Written: %d != DataLength\n", NumBytesWritten); return XST_FAILURE; }
 	}
 	else if (filetype == 2) {
-		myres = f_puts ((char *) dataPtr, &test); // writing text. # of bytes: determined by dataPtr (until the end-of-string character is reached)
+		//myres = f_puts ((char *) dataPtr, &test); // writing text. # of bytes: determined by dataPtr (until the end-of-string character is reached)
 	}
 	else
 		{ xil_printf ("Error: 'filetype' is incorrect!"); return XST_FAILURE; }
